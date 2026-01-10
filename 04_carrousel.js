@@ -13,9 +13,9 @@ function showSlide(i) {
     carouselInner.style.transform = `translateX(-${index * 100}%)`;
 }
 
-// Botones
+/* BOTONES */
 prevBtn.addEventListener('click', () => showSlide(index - 1));
 nextBtn.addEventListener('click', () => showSlide(index + 1));
 
-// Cambiar automáticamente cada 3 segundos
-setInterval(() => showSlide(index + 1), 3000);
+/* CAMBIO AUTOMÁTICO ___________  cada 6s*/
+setInterval(() => showSlide(index + 1), 6000);

@@ -364,6 +364,8 @@ img [src="03_portfolio_01_maquillaje/01_maquillaje_01_"]{
     margin-right: auto;
     
     overflow: hidden; 
+    /*border: 2px solid #D9B6B9;*/
+    
     
 }
 
@@ -383,21 +385,51 @@ img [src="03_portfolio_01_maquillaje/01_maquillaje_01_"]{
     object-fit: cover;
 }
 
-button.prev, button.next {
+
+button.prev{
+    left: 10px;
+    
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+
+    background: transparent;   
+    border: none;              
+    padding: 0;                
+    margin: 0;
     
-    
-    border: none;
-    font-size: 2rem;
-    padding: 0 10px;
     cursor: pointer;
-    
+
+    appearance: none;         
+    -webkit-appearance: none;  
 }
 
-button.prev { left: 10px; }
-button.next { right: 10px; }
+
+button.next {
+    right: 10px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background: transparent;   
+    border: none;              
+    padding: 0;                
+    margin: 0;
+    
+    cursor: pointer;
+
+    appearance: none;          
+    -webkit-appearance: none;  
+}
+
+
+button.prev img,
+button.next img {
+    width: 40px;   /* prueba 20px, 25px, 40px… */
+    height: auto;
+    display: block;
+}
 
 
 
