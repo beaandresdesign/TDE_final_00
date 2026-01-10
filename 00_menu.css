@@ -50,5 +50,19 @@ a:active{
 
 
 
+.menu ul li.icono {
+    margin-left: auto; 
+}
+
+.menu ul li.icono img {
+    height: 20px; 
+    width: auto;
+    cursor: pointer; 
+    vertical-align: middle;
+}
+
+
+
+
 
 

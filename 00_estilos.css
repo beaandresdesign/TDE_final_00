@@ -359,9 +359,12 @@ img [src="03_portfolio_01_maquillaje/01_maquillaje_01_"]{
     position: relative;
     width: 600px;  /* ancho del carrusel */
     height: 400px; /* altura del carrusel */
-    margin: auto;
-    overflow: hidden; /* oculta las imágenes que no están activas */
-    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    overflow: hidden; 
+    
 }
 
 .carousel-inner {
@@ -384,13 +387,13 @@ button.prev, button.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    color: white;
+    
+    
     border: none;
     font-size: 2rem;
     padding: 0 10px;
     cursor: pointer;
-    border-radius: 5px;
+    
 }
 
 button.prev { left: 10px; }
