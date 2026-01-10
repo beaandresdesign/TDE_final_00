@@ -17,28 +17,45 @@ body.inicio {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
     z-index: 1;
     
 }
 
 .logo img{
-    /*max-width:1000px;*/
+    display: block;
     height: auto;
     width: 400px;    
 }
 
+.subtexto_logo{
+    position: relative;
+    top: 3px;
+    left: 200px;
 
+    color:#AD7278;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+/*
 .subtexto_logo {
     position: relative; 
-    z-index: 2;         /* esto es que esta encima (como capas en photoshop) */
+    z-index: 2;          esto es que esta encima (como capas en photoshop) 
     color:#AD7278;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 
     text-align: center;
     top: 30px;
-    right: 150px;
-}
+    right: 200px;
+    
+}*/
 
 
 /*ABOUT*/
@@ -317,36 +334,6 @@ img [src="03_portfolio_01_maquillaje/01_maquillaje_01_"]{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .recorte{
     width: 66%; 
   display: flex;
@@ -367,23 +354,47 @@ img [src="03_portfolio_01_maquillaje/01_maquillaje_01_"]{
 
 
 
-
-
-
-/*
-.recorte {
-  width: 300px;      
-  height: 200px;    
-  overflow: hidden;  
-  position: relative;
+/*CARROUSSEL*/
+.carousel {
+    position: relative;
+    width: 600px;  /* ancho del carrusel */
+    height: 400px; /* altura del carrusel */
+    margin: auto;
+    overflow: hidden; /* oculta las imágenes que no están activas */
+    border-radius: 10px;
 }
 
-.recorte img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  
-}*/
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
 
+.carousel-item {
+    min-width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
 
 
 
