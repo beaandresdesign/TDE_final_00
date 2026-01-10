@@ -1,0 +1,54 @@
+/*BARRA*/
+.menu{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu {
+    background-color: #AD7278;
+    width: 100%;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    padding: 15px 20px;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+    display: inline-block;    
+}
+
+a:hover{
+    color: #D9B6B9;
+}
+
+li:active{
+    background-color: #D9B6B9;    
+}
+
+a:active{
+    color: white;
+}
+
+
+
+
+
+
+
