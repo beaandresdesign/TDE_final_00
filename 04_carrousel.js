@@ -17,5 +17,3 @@ function showSlide(i) {
 prevBtn.addEventListener('click', () => showSlide(index - 1));
 nextBtn.addEventListener('click', () => showSlide(index + 1));
 
-/* CAMBIO AUTOMÁTICO ___________  cada 6s*/
-setInterval(() => showSlide(index + 1), 6000);

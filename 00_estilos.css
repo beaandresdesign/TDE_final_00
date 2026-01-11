@@ -42,22 +42,6 @@ body.inicio {
 
 
 
-
-/*
-.subtexto_logo {
-    position: relative; 
-    z-index: 2;          esto es que esta encima (como capas en photoshop) 
-    color:#AD7278;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-
-    text-align: center;
-    top: 30px;
-    right: 200px;
-    
-}*/
-
-
 /*ABOUT*/
 
 .titulo_about{
@@ -90,6 +74,69 @@ body.inicio {
     font-size: 15px;
     padding: 15px;    
 }
+
+.texto_02{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+    padding: 0px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    text-align: left;
+    margin-left: 50px;
+    width: 45%;
+
+}
+
+
+.contenedor_foto {
+  margin-top: 80px;
+  padding: 20px; 
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%;
+}
+
+
+.contenido_foto {
+  width: 66%; 
+  height: 500px;            
+}
+
+.contenido_foto img {
+  width: 90%;
+  height: 100%;          
+  object-fit: cover;
+}
+
+
+
+/*AIUDAAAAAAAAAAAA*/
+.texto_portfolio{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+    padding: 0px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    text-align: left;
+    margin-left: 50px;
+    width: 45%;
+}
+
+.texto_02{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 5px 0;
+    margin-top: 10px;
+
+}
+
 
 
 /*CONTACTO*/
@@ -354,17 +401,16 @@ img [src="03_portfolio_01_maquillaje/01_maquillaje_01_"]{
 
 
 
-/*CARROUSSEL*/
+/*CARRUSEL*/
 .carousel {
     position: relative;
-    width: 600px;  /* ancho del carrusel */
-    height: 400px; /* altura del carrusel */
+    width: 600px;  
+    height: 400px; 
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     
     overflow: hidden; 
-    /*border: 2px solid #D9B6B9;*/
     
     
 }
@@ -426,7 +472,7 @@ button.next {
 
 button.prev img,
 button.next img {
-    width: 40px;   /* prueba 20px, 25px, 40px… */
+    width: 40px;   
     height: auto;
     display: block;
 }
