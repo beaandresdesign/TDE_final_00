@@ -1,4 +1,4 @@
-fetch("00_inicio.html")
+fetch("index.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("menu-container").innerHTML = data;
